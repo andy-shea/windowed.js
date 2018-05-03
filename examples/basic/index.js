@@ -1,4 +1,4 @@
-import windowed from '../../lib/windowed';
+import windowed from '../../src/windowed';
 
 windowed(
   {
