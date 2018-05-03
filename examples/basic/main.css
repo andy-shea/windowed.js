@@ -1,0 +1,56 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body{ 
+  height: 100%;
+  color: #333;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+body > header {
+  background: #333;
+  color: white;
+  padding: 1em 2em;
+}
+
+h1, h3 {
+  margin: 0;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+main > header {
+  background: #ddd;
+  height: 200px;
+  padding: 2em;
+}
+
+div[data-windowed] {
+
+}
+
+.windowed__item {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 2em;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+}
+
+.windowed__item > * {
+  flex: 1;
+}
+
+.windowed__item nav ul {
+  display: flex;
+}
